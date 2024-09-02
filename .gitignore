@@ -1,0 +1,110 @@
+# Node.js
+node_modules/
+/npm-debug.log*
+/yarn-debug.log*
+/yarn-error.log*
+/package-lock.json
+/pnpm-lock.yaml
+/.pnp
+.pnp.js
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# Build artifacts
+/dist
+/build
+/public/static
+/public/build
+
+# Dependency directories
+/node_modules
+/.pnp
+.pnp.js
+
+# MongoDB
+/data/db
+/mongod.lock
+/mongo.log
+
+# Editor and IDE settings
+/.vscode
+/.idea
+*.swp
+*.swo
+*~
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Mac OS X Finder Thumbnails
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# NPM package logs and crash reports
+npm-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# React specific build files
+/build
+/public/build
+/public/static
+
+# Next.js (if used)
+.next
+/out
+
+# SASS / CSS Modules
+.sass-cache/
+*.css.map
+
+# Coverage reports
+/coverage
+*.lcov
+
+# Binaries
+/bin
+/obj
+
+# Optional npm cache
+.npm
+
+# Parcel-bundler cache (if used)
+/.cache
+
+# Lockfiles (choose the appropriate one if you're using npm, yarn, or pnpm)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Miscellaneous
+*.log
+*.pid
+*.seed
+*.pid.lock
+*.orig
+
+# Temporary files
+.tmp/
+.temp/
+
+
+# MongoDB
+config/
